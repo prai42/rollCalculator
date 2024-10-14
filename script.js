@@ -42,6 +42,6 @@ document.addEventListener('DOMContentLoaded', () => {
         const formattedTotal = total.toLocaleString('en-US', { minimumFractionDigits: 2, maximumFractionDigits: 2 });
 
         // Display the result
-        resultDiv.innerHTML = `<p>The total amount is: <strong>$${formattedTotal}</strong></p>`;
+        resultDiv.innerHTML = `<p>Total amount: <strong>$${formattedTotal}</strong></p>`;
     });
 });
