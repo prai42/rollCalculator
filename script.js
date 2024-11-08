@@ -34,7 +34,7 @@ document.addEventListener('DOMContentLoaded', () => {
             (nickelRolls * 2) +
             (dimeRolls * 5) +
             (quarterRolls * 10) +
-            (dollarBooks * 20) +
+            (dollarBooks * 25) +
             (fiveDollarBooks * 100)
         );
 
